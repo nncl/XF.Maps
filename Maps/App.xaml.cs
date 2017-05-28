@@ -8,7 +8,7 @@ namespace Maps
         {
             InitializeComponent();
 
-            MainPage = new MapsPage();
+            MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnStart()
